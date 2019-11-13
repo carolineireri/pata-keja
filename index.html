@@ -19,105 +19,74 @@
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-      <a class="navbar-brand" href="#"><img src="img/logo.png"/></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Properties</a>
-          </li>
-        </ul>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo-crop.png" height="60px"/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="row  intro">
-      <br /><br /><br /><br />
-      <h1>WELCOME TO PATA-KEJA</h1>
-      <br />
-      <p>Affordable housing</p>
-      <br />
-      <p><a href="property.html">Find Housing..</a></p>
-    </div>
-    <div class="row  ">
-      <div class="aboutus  col-md-12" id="about">
-        <h1>ABOUT US</h1>
-        <p>
-          Since coming to the city for studies or hustles is what most people
-          consider, getting affordable housing is hard since most peope
-          advertising the rooms are conmen.In pata-keja we build trust with our
-          tenants and landlords to ensure we all get what we want without going
-          through a hard task of being conned.We highly mind our students and
-          hustlers in walking through this city to find a place to call home
-        </p>
-      </div>
-    </div> </div>
-    <br /><br /><br><br><br><br><br>
+    <!-- intro-->
+    <div class="row">
 
-    <!--- Connect -->
-    <div class="row-fluid" id="contact">
+    </div>
+    <!-- about us --> 
+    <!-- <div class="row  ">
+        <div class="aboutus  col-md-12" id="about">
+          <h1>ABOUT US</h1>
+          <p>
+            Since coming to the city for studies or hustles is what most people
+            consider, getting affordable housing is hard since most peope
+            advertising the rooms are conmen.In pata-keja we build trust with our
+            tenants and landlords to ensure we all get what we want without going
+            through a hard task of being conned.We highly mind our students and
+            hustlers in walking through this city to find a place to call home
+          </p>
+        </div><br><br><br> -->
+    <!--- Form -->
+    <div class="row" id="contact">
       <h1>Contact Us</h1>
       <hr />
       <form class="contacts" action="index.html" method="post" id="contacts">
-        <div class="col-12">
-          <p>
-            We value your feedback. Please feel free to comment, ask a question
-            by filling the form below.
-          </p>
-        </div>
-        <div class="row">
+          <div class="col-12">
+              <p>We value your feedback. Please feel free to comment, ask a question by filling the form below.</p>
+          </div>
+          <div class="row">
           <div class="col-md-6 ">
-            <input
-              id="name"
-              type="text"
-              class="form-control"
-              name="name"
-              placeholder="Name..."
-              required
-              autocomplete="off"
-            /><br />
-            <span class="error" id="name-error"></span>
+              <input id="name" type="text" class="form-control" name="name" placeholder="Name..."
+                  required autocomplete="off"><br>
+              <span class="error" id="name-error"></span>
           </div>
           <div class="col-md-6 ">
-            <input
-              id="email"
-              type="email"
-              class="form-control"
-              name="mail"
-              placeholder="Email..."
-              required
-              autocomplete="off"
-            /><br /><br />
-            <span class="form-error" id="mail-error"></span>
+              <input id="email" type="email" class="form-control" name="mail" placeholder="Email..." required autocomplete="off"><br><br>
+              <span class="form-error" id="mail-error"></span>
           </div>
         </div>
-        <div class="col-md-12 ms">
-          <textarea
-            type="text"
-            class="form-control"
-            id="message"
-            cols="30"
-            rows="5"
-            name="message"
-            placeholder="Comment here..."
-            required
-          ></textarea
-          ><br /><br /><br />
-        </div>
-        <div class="col-md-12 button">
-          <input class="btn btn-primary" type="submit" value="Submit" />
-        </div>
-      </form>
-      <br />
-    </div>
+          <div class="col-md-12 ms">
+              <textarea type="text" class="form-control" id="message" cols="30" rows="5" name="message"
+                  placeholder="Comment here..." required></textarea><br><br><br>
+          </div>
+          <div class="col-md-12 button">
+              <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+      </form><br>
+  </div><br><br>
+    <!--- Connect -->
 
     <div class="container-fluid padding">
       <div class="row text-center padding">
@@ -132,37 +101,37 @@
           <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-    </div>
+    </div><br><br>
 
     <!--- Footer -->
 
     <footer>
       <div class="container-fluid padding">
         <div class="row text-center padding">
-          <div class="col-md-4">
-            <img src="img/w3newbie.png" />
+          <div class="col-md-4 ft">
+            <img src="images/logo-crop.png" height="60px" />
             <hr class="light" />
-            <p>55-555-555</p>
-            <p>email@email.com</p>
-            <p>Where I live</p>
-            <p>My City, 007</p>
+            <p>072727272</p>
+            <p>pata-keja@gmail.com</p>
+            <p>Kenya</p>
+            <p>Nairobi</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 ft" >
             <hr class="light" />
             <h5>Our Hours</h5>
             <hr class="light" />
-            <p>Monday:Time</p>
-            <p>Saturday:Time</p>
+            <p>Monday - Friday : 09:00 AM - 4:00 PM</p>
+            <p>Saturday: 09:00 AM - 1:00 PM</p>
             <p>Sunday:Closed</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 ft ">
             <hr class="light" />
             <h5>Service Area</h5>
             <hr class="light" />
-            <p>My City, 007</p>
-            <p>My City, 007</p>
-            <p>My City, 007</p>
-            <p>My City, 007</p>
+            <p>Ngong Road</p>
+            <p>Langata Road</p>
+            <p>Ngara</p>
+            <p>Kibra</p>
           </div>
           <div class="col-12">
             <hr class="light" />
