@@ -10,12 +10,12 @@ body {
   height: auto;
 }
 #contact {
-  background-image:url("../images/bg_4.jpg");
-  background-size:cover;
-  color:white;
+  background-image: url("../images/bg_4.jpg");
+  color: white;
   text-align: center;
-  width:60%;
- margin:0 auto;
- padding: 10px;
- justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  justify-content: center;
 }
+
