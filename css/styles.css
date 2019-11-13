@@ -39,8 +39,18 @@ body {
 .ft {
   color: white;
 
-}
-footer {
-  background-color: black ;
+
+
+.dark-mode {
+  background-color: black;
   color: white;
+}
+
+.day-mode {
+  background-color: white;
+  color: black;
+}
+
+.card-body{
+  color: black;
 }
