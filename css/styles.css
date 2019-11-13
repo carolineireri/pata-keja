@@ -19,3 +19,7 @@ body {
   padding: 10px;
   justify-content: center;
 }
+
+.carousel-caption{
+  position: fixed;
+}
