@@ -10,3 +10,19 @@ $("#contact").submit(function(event) {
     );
     $("#contact")[0].reset();
   });
+
+  //dark mode
+
+  $(document).ready(function() {
+    $("button#dark").click(function() {
+      $("body").removeClass();
+      $("body").addClass("dark-mode");
+    });
+  });
+  
+  $(document).ready(function() {
+    $("button#light").click(function() {
+      $("body").removeClass();
+      $("body").addClass("day-mode");
+    });
+  });

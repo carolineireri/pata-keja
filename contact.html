@@ -1,151 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="./css/styles.css" rel="stylesheet" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <link href="./css/styles.css" rel="stylesheet" />
+    <title>PATA-KEJA</title>
+  </head>
 
-  <title>Document</title>
-</head>
-
-<body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logo-crop.png" height="60px" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="property.html">PROPERTIES</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">CONTACT US</a>
-          </li>
-        </ul>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo-crop.png" height="60px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="property.html">PROPERTIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav><br><br>
-  <!-- <div class="container">
-  <div class="col"> -->
+    </nav>
+    <br /><br />
 
-  <div class="row">
-    <div class="mapouter col-md-6">
-      <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-          src="https://maps.google.com/maps?q=ngong%20lane%20plaza&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-          scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-          href="https://www.emojilib.com/divi-discount-code-elegant-themes-coupon/">elegant themes coupon code</a>
+    <div class="row">
+      <div class="mapouter col-md-6">
+        <div class="gmap_canvas">
+          <iframe
+            width="600"
+            height="500"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=ngong%20lane%20plaza&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          ><a
+            href="https://www.emojilib.com/divi-discount-code-elegant-themes-coupon/"
+            >elegant themes coupon code</a
+          >
+        </div>
       </div>
-    </div>
-    <div class="row col-md-6" id="contact">
+      <div class="row col-md-6" id="contact">
+        <h1>Contact Us</h1>
+        <hr />
 
-      <h1>Contact Us</h1>
-      <hr />
-
-      <form class="contacts" action="index.html" method="post" id="contacts">
-        <div class="col-12">
-          <p>
-            We value your feedback. Please feel free to comment, ask a question
-            by filling the form below.
-          </p>
-        </div>
-        <div class="row">
-        <div class="col-md-6 ">
-          <input id="name" type="text" class="form-control" name="name" placeholder="Name..." required
-            autocomplete="off" /><br />
-          <span class="error" id="name-error"></span>
-        </div>
-        <div class="col-md-6 ">
-          <input id="email" type="email" class="form-control" name="mail" placeholder="Email..." required
-            autocomplete="off" /><br /><br />
-          <span class="form-error" id="mail-error"></span>
-        </div>
-        <div class="col-md-12 ms">
-          <textarea type="text" class="form-control" id="message" cols="30" rows="5" name="message"
-            placeholder="Comment here..." required></textarea><br /><br /><br />
-        </div>
-        <div class="col-md-12 button">
-          <input class="btn btn-primary" type="submit" value="Submit" />
-        </div>
-      </form>
+        <form class="contacts" action="index.html" method="post" id="contacts">
+          <div class="col-12">
+            <p>
+              We value your feedback. Please feel free to comment, ask a
+              question by filling the form below.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 ">
+              <input
+                id="name"
+                type="text"
+                class="form-control"
+                name="name"
+                placeholder="Name..."
+                required
+                autocomplete="off"
+              /><br />
+              <span class="error" id="name-error"></span>
+            </div>
+            <div class="col-md-6 ">
+              <input
+                id="email"
+                type="email"
+                class="form-control"
+                name="mail"
+                placeholder="Email..."
+                required
+                autocomplete="off"
+              /><br /><br />
+              <span class="form-error" id="mail-error"></span>
+            </div>
+          </div>
+          <div class="col-md-12 ms">
+            <textarea
+              type="text"
+              class="form-control"
+              id="message"
+              cols="30"
+              rows="5"
+              name="message"
+              placeholder="Comment here..."
+              required
+            ></textarea
+            ><br /><br /><br />
+          </div>
+          <div class="col-md-12 button">
+            <input class="btn btn-primary" type="submit" value="Submit" />
+          </div>
+        </form>
+        <br />
+      </div>
       <br />
-
     </div>
-    <br />
-  </div>
-  <br><br>
+    <br /><br />
 
-  <!--- Connect -->
+    <!--- Connect -->
 
-  <div class="container-fluid padding">
-    <div class="row text-center padding">
-      <div class="col-12">
-        <h2>Connect</h2>
-      </div>
-      <div class="col-12 social padding">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
-    </div>
-  </div>
-  <br /><br />
-
-  <!--- Footer -->
-
-  <footer>
     <div class="container-fluid padding">
       <div class="row text-center padding">
-        <div class="col-md-4 ft">
-          <img src="images/logo-crop.png" height="60px" />
-          <hr class="light" />
-          <p>072727272</p>
-          <p>pata-keja@gmail.com</p>
-          <p>Kenya</p>
-          <p>Nairobi</p>
-        </div>
-        <div class="col-md-4 ft">
-          <hr class="light" />
-          <h5>Our Hours</h5>
-          <hr class="light" />
-          <p>Monday - Friday : 09:00 AM - 4:00 PM</p>
-          <p>Saturday: 09:00 AM - 1:00 PM</p>
-          <p>Sunday:Closed</p>
-        </div>
-        <div class="col-md-4 ft ">
-          <hr class="light" />
-          <h5>Service Area</h5>
-          <hr class="light" />
-          <p>Ngong Road</p>
-          <p>Langata Road</p>
-          <p>Ngara</p>
-          <p>Kibra</p>
-        </div>
         <div class="col-12">
-          <hr class="light" />
-          <h5>&copy; pata-keja.com</h5>
+          <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
     </div>
-  </footer>
-  <script src="./js/main.js"></script>
-</body>
+    <br /><br />
 
+    <!--- Footer -->
+
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-md-4 ft">
+            <img src="images/logo-crop.png" height="60px" />
+            <hr class="light" />
+            <p>072727272</p>
+            <p>pata-keja@gmail.com</p>
+            <p>Kenya</p>
+            <p>Nairobi</p>
+          </div>
+          <div class="col-md-4 ft">
+            <hr class="light" />
+            <h5>Our Hours</h5>
+            <hr class="light" />
+            <p>Monday - Friday : 09:00 AM - 4:00 PM</p>
+            <p>Saturday: 09:00 AM - 1:00 PM</p>
+            <p>Sunday:Closed</p>
+          </div>
+          <div class="col-md-4 ft ">
+            <hr class="light" />
+            <h5>Service Area</h5>
+            <hr class="light" />
+            <p>Ngong Road</p>
+            <p>Langata Road</p>
+            <p>Ngara</p>
+            <p>Kibra</p>
+          </div>
+          <div class="col-12">
+            <hr class="light" />
+            <h5>&copy; pata-keja.com</h5>
+            <button class="btn btn-success" id="dark">Dark Mode</button>
+            <button class="btn btn-success" id="light">Day Mode</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
