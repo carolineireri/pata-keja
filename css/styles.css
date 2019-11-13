@@ -22,8 +22,8 @@ body {
 .intro {
   text-align: center;
   background-image: url(/images/house14.jpg);
-  height: 100vh;
-  width: 100%;
+  background-repeat: no-repeat;
+  width: 1200px;
   margin: 0;
   font-size: 25px;
 }
