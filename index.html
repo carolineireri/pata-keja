@@ -17,12 +17,12 @@
           </div>
           <div class="col-md-6 nm">
               <input id="name" type="text" class="form-control" name="name" placeholder="Name..."
-                  required><br><br><br>
+                  required autocomplete="off"><br><br><br>
               <span class="error" id="name-error"></span>
           </div>
           <div class="col-md-6 em">
-              <input id="email" type="email" class="form-control" name="mail" placeholder="Email..." required>
-              <span class="form-error" id="mail-error"></span>
+              <input id="email" type="email" class="form-control" name="mail" placeholder="Email..." required autocomplete="off">
+              <span class="form-error" id="mail-error" ></span>
           </div>
           <div class="col-md-12 ms">
               <textarea type="text" class="form-control" id="message" cols="30" rows="5" name="message"
@@ -34,16 +34,8 @@
       </form><br>
   </div>
   <br><br>
-  <div class="row">
-      <footer>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-instagram"></a>
-          <p><strong>
-                  Copyright &copy;  2019</strong><br>Pata Keja Agency
-          </p>
-      </footer>
-      <br><br>
-  </div>
+  <script src="./js/jquery-3.3.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
