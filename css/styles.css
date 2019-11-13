@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   height: auto;
-  background-image: url("../images/house15.jpg");
+  
 }
 #contact {
   background-image: url("../images/bg_4.jpg");
@@ -29,3 +29,4 @@ footer {
   background-color: black ;
   color: white;
 }
+
