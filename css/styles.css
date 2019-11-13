@@ -1,0 +1,23 @@
+@import url(bootstrap.css);
+@import url(bootstrap.min.css);
+ 
+.intro.p{
+  text-align: center;
+}
+.intro{
+  text-align: center;
+  background-image: url(../images/house14.jpg);
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  font-size: 25px;
+}
+
+ 
+#about{
+  position: absolute;
+  text-align: center;
+}
+
+
+
