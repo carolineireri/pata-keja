@@ -133,6 +133,12 @@ body {
   font-family: 'Lora', serif;
   text-transform: uppercase;
 }
+li{
+  list-style: left;
+  float: left;
+ 
+;
+}
 
 
 #about{
