@@ -55,3 +55,15 @@ body {
 .card-body{
   color: black;
 }
+#about{
+  text-align: center;
+  padding:20px;
+}
+.vision{
+  text-align: center;
+}
+ .mission {
+  text-align: center;
+    list-style: inside; 
+
+}
