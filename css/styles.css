@@ -4,9 +4,10 @@
   margin: 0 auto;
 }
 body {
+  box-sizing: border-box  ;
   padding: 0;
   height: auto;
-  margin:0 auto; 
+  margin: 0 auto;
 }
 .main-btn {
   color: #110609;
@@ -25,10 +26,10 @@ body {
   width: 400px;
   justify-content: center;
   opacity: 0.7;
-  margin-top:40px;
-  margin:0 auto;
+  margin-top: 40px;
+  margin: 0 auto;
   height: 500px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 .carousel-caption {
  position: absolute;
@@ -38,7 +39,7 @@ body {
 }
 .container-fluid {
   margin: 0 auto;
-  padding:0;
+  padding: 0;
   text-align: center;
 }
 .mapouter {
@@ -46,7 +47,7 @@ body {
   text-align: right;
   height: 500px;
   width: 600px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .gmap_canvas {
@@ -56,15 +57,6 @@ body {
   width: 600px;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.day-mode {
-  background-color: white;
-  color: black;
-}
 
 .card-body{
   color: black;
@@ -79,4 +71,72 @@ body {
   text-align: center;
     list-style: inside; 
 
+}
+
+/*Dark Mode*/
+
+
+.switch {
+  align-self: flex-end;
+  margin: 0.9375rem;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 1.25rem;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.day-mode {
+  background-color: white;
+  color: black;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+  text-shadow: 1px 1px 10px black;
+
+}
+.carousel-caption h3{
+  text-shadow: 1px 1px 10px black;
+}
+
+.card-title{
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+}
+
+.card-text{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.property-header{
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+}
+
+
+#about{
+  font-family: 'Quicksand', sans-serif;
+}
+#vision{
+  font-family: 'Quicksand', sans-serif;
+}
+#mission{
+  font-family: 'Quicksand', sans-serif;
 }
