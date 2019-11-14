@@ -8,6 +8,17 @@ body {
   height: auto;
   margin:0 auto; 
 }
+.main-btn {
+  color: #110609;
+  border: 2px solid #03050a;
+  transition: all 1s ease-in-out;
+}
+
+.main-btn:hover {
+  color: darkgreen;
+  border: 2px solid;
+  background: paleturquoise;
+}
 #contact {
   background-image: url("../images/bg_4.jpg");
   color: white;
