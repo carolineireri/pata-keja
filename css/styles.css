@@ -131,6 +131,9 @@ body {
 }
 li{
   list-style: left;
+  float: left;
+ 
+;
 }
 
 
