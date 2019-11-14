@@ -4,6 +4,7 @@
   margin: 0 auto;
 }
 body {
+  box-sizing: border-box;
   padding: 0;
   height: auto;
   margin:0 auto; 
