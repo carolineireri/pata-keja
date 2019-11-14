@@ -4,12 +4,9 @@
   margin: 0 auto;
 }
 body {
-  /* margin: 0; */
-  box-sizing: border-box;
   padding: 0;
   height: auto;
-  margin:0 auto;
-  
+  margin:0 auto; 
 }
 #contact {
   background-image: url("../images/bg_4.jpg");
@@ -57,4 +54,16 @@ body {
 
 .card-body{
   color: black;
+}
+#about{
+  text-align: center;
+  padding:20px;
+}
+.vision{
+  text-align: center;
+}
+ .mission {
+  text-align: center;
+    list-style: inside; 
+
 }
