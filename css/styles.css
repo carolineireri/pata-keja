@@ -115,3 +115,17 @@ body {
 .carousel-caption h3{
   text-shadow: 1px 1px 10px black;
 }
+
+.card-title{
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+}
+
+.card-text{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.property-header{
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+}
