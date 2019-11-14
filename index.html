@@ -10,7 +10,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
   <link href="./css/styles.css" rel="stylesheet" /> 
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+
 
   <title>PATA-KEJA</title>
 </head>
@@ -26,7 +30,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
@@ -49,7 +53,7 @@
       <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" animation-delay="2s" class="active"></li>
         <li data-target="#slides" data-slide-to="1" animation-delay="2s"></li>
-        <li data-target="#slides" data-slide-to="2" animation-delay="2s" ></li>
+        <li data-target="#slides" data-slide-to="2" animation-delay="2s"></li>
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -81,23 +85,33 @@
     </div>
   </div>
 
-    <!--- About Us -->
-    <div class="aboutus  col-12" id="about">
-        <h1>ABOUT US</h1>
-        <p>PataKeja is a leading residential property company in Kenya, working across local markets,
-           delivering unrivalled customer service through the commitment and inspiration of its staff.</p>
-         </div>
-         <div class=row>
-           <div class="vision col-md-6">
-         <h2>Our Vision</h2>
-        <p> At Pata Keja our goal is to go above and beyond to deliver an experience that is fulfilling for our customers. We realize our business 
-          is based on relationships and that every individual interaction makes a difference.</p>
-        <p> We will diligently work with the people we serve and guide them . Because they're people first and clients second.</p>
-      </div>
-      <div class="mission col-md-6">
+  <!--- About Us -->
+  <div class="aboutus  col-12" id="about">
+    <h1>ABOUT US</h1>
+    <hr>
+    <p>Pata Keja is a leading residential property company in Kenya, working across local markets,
+      delivering unrivalled customer service through the commitment and inspiration of its staff.The success of our
+      business is founded on the global affiliation and the size of our local network. Listening
+      to the needs of our customers, we saw their need for professional help not only in terms of
+      finding affordable accommodation, but also after-sales. That's why we distinguish from a
+      number of similar agencies; we offer our clients additional services.</p>
+  </div>
+  <div class=row>
+    <div class="vision col-md-6" id="vision">
+      <h2>Our Vision</h2>
+      <hr>
+      <p> At Pata Keja our goal is to go above and beyond to deliver an experience that is fulfilling for our customers.
+        We realize our business
+        is based on relationships and that every individual interaction makes a difference.</p>
+      <p> We will diligently work with the people we serve and guide them . Because they're people first and clients
+        second.</p>
+    </div>
+    <div class="mission col-md-6" id="mission">
       <h2>Our Mission</h2>
-      <p>Pata Keja's mission is to be the most professional and ethical company in Kenya and to positively impact our clients and our community:
-        </p>
+      <hr>
+      <p>Pata Keja's mission is to be the most professional and ethical company in Kenya and to positively impact our
+        clients and our community:
+      </p>
       <ul>
         <li>Being committed to our business full time.</li>
         <li>Making ourselves available when you are.</li>
@@ -106,24 +120,12 @@
     </div>
   </div><br>
 
-   <br>
-   <div class="container-fluid padding">
-      <div class="row text-center padding">
-        <div class="col-12">
-          <h2>Connect</h2>
-        </div>
-        <div class="col-12 social padding">
-          
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
-      </div>
-    </div>
-    <br /><br />
-    <!--- Footer -->
+
+  <br>
+
+  <!--- Footer -->
+
+
 
     <footer>
       <div class="container-fluid padding">
@@ -143,6 +145,11 @@
             <p>Monday - Friday : 09:00 AM - 4:00 PM</p>
             <p>Saturday: 09:00 AM - 1:00 PM</p>
             <p>Sunday:Closed</p>
+            <br>
+            <br>
+            <br>
+            <h5>&copy; pata-keja.com</h5>
+
           </div>
           <div class="col-md-4 ft ">
             <hr class="light" />
@@ -153,17 +160,17 @@
             <p>Ngara</p>
             <p>Kibra</p>
           </div>
-          <div class="col-12">
-            <hr class="light" />
-            <h5>&copy; pata-keja.com</h5>
-            <button class="btn btn-success" id="dark">Dark Mode</button>
-            <button class="btn btn-success" id="light">Day Mode</button>
-          </div>
+          <div class="switch">Dark mode:              
+            <span class="inner-switch">OFF</span>
+        </div>
+
+
         </div>
       </div>
-    </footer>
     </div>
-    <script src="./js/main.js"></script>
+  </footer>
+  </div>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
