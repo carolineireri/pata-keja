@@ -72,6 +72,10 @@ body {
     list-style: inside; 
 
 }
+.btn {
+  color: gold;
+  background-color: #121E37;
+}
 
 /*Dark Mode*/
 

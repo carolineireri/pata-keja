@@ -1,4 +1,8 @@
-$("#contact").submit(function(event) {
+
+  
+  //feedback form 
+
+  $("#contact").submit(function(event) {
     event.preventDefault();
     var blanks = ["name", "email", "message"];
     var input = [];
@@ -10,7 +14,7 @@ $("#contact").submit(function(event) {
     );
     $("#contact")[0].reset();
   });
-
+  
   //dark mode
 
   $( ".inner-switch" ).on("click", function() {
