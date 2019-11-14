@@ -4,6 +4,7 @@
   margin: 0 auto;
 }
 body {
+  box-sizing: border-box;
   padding: 0;
   height: auto;
   margin:0 auto; 
@@ -56,15 +57,6 @@ body {
   width: 600px;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.day-mode {
-  background-color: white;
-  color: black;
-}
 
 .card-body{
   color: black;
@@ -79,4 +71,46 @@ body {
   text-align: center;
     list-style: inside; 
 
+}
+
+/*Dark Mode*/
+
+
+.switch {
+  align-self: flex-end;
+  margin: 0.9375rem;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 1.25rem;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.day-mode {
+  background-color: white;
+  color: black;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+  text-shadow: 1px 1px 10px black;
+}
+.carousel-caption h3{
+  text-shadow: 1px 1px 10px black;
 }
