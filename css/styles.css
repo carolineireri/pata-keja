@@ -129,6 +129,9 @@ body {
   font-family: 'Lora', serif;
   text-transform: uppercase;
 }
+li{
+  list-style: left;
+}
 
 
 #about{
