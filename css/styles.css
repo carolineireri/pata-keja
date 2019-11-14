@@ -105,3 +105,10 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.carousel-caption h1{
+  text-shadow: 1px 1px 10px black;
+}
+.carousel-caption h3{
+  text-shadow: 1px 1px 10px black;
+}
