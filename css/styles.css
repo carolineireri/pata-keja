@@ -135,16 +135,6 @@ li {
   list-style: left;
   float: left;
 }
-.details1{
-  display: none;
-}
-.details2{
-  display: none;
-}
-.details3{
-  display: none;
-}
-
 #about {
   font-family: "Quicksand", sans-serif;
 }
