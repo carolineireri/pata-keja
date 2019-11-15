@@ -1,12 +1,13 @@
 
-  
+
+
   //feedback form 
 
-  $("#contact").submit(function(event) {
+  $("#contact").submit(function (event) {
     event.preventDefault();
     var blanks = ["name", "email", "message"];
     var input = [];
-    blanks.forEach(function(blank) {
+    blanks.forEach(function (blank) {
       input.push($("#" + blank).val());
     });
     alert(
@@ -14,29 +15,33 @@
     );
     $("#contact")[0].reset();
   });
-  
+
   //dark mode
 
-  $( ".inner-switch" ).on("click", function() {
-    if( $( "body" ).hasClass( "dark-mode" )) {
-      $( "body" ).removeClass( "dark-mode" );
-      $( ".inner-switch" ).text( "OFF" );
+  $(".inner-switch").on("click", function () {
+    if ($("body").hasClass("dark-mode")) {
+      $("body").removeClass("dark-mode");
+      $(".inner-switch").text("OFF");
     } else {
-      $( "body" ).addClass( "dark-mode" );
-      $( ".inner-switch" ).text( "ON" );
+      $("body").addClass("dark-mode");
+      $(".inner-switch").text("ON");
     }
-});
-// button details2
 
-$(document).ready(function() {
+  });
 
-$("#details").click(function() {
-  $(".details1").show();
+  //Book site view
+  $("document").ready(function () {
+  $(".book-site").click(function () {
+    var name = prompt(
+      "PLease enter your name"
+    );
+    if (name) {
+      var mobile = prompt("Please enter your mobile number");
+      if (mobile) {
+        alert("Thank you for contacting Pata Keja. We will get back to you soon."
+      );
+    }
+  }
 });
-$("#details2").click(function() {
-  $(".details2").show();
-});
-$("#details3").click(function() {
-  $(".details3").show();
-});
-});
+
+  });
