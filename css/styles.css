@@ -9,6 +9,15 @@ body {
   height: auto;
   width: 100%;
 }
+.collapse h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.display-2 {
+  font-family: "Lobster", cursive;
+  font-family: "Nanum Myeongjo", serif;
+}
+
 .main-btn {
   color: #110609;
   border: 2px solid #03050a;
@@ -58,7 +67,7 @@ body {
   height: 500px;
   width: 500px;
 }
-.card-body{
+.card-body {
   color: black;
 }
 #about,
