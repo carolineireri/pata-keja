@@ -11,7 +11,7 @@ This is a prototype website of a real estate agency that gives a platform to hel
 
 #### Deploying
 
-To view this project, please use this live link. 
+To view this project, please use this live link. https://github.com/carolineireri/pata-keja
 
 ## BDD
 
