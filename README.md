@@ -1,8 +1,13 @@
 # PATA-KEJA
 
 ## By 
+- Kenin Muchui
+- Sheila Birgen
+- Kihia Muthure
+- Caroline Nyambura
 
 ### Description
+This is a prototype website of a real estate agency that gives a platform to help house seekers find affordable accommodation. Landlords or property owners are able to advertise their vacant houses and find prospective tenants without much hustle.
 
 #### Deploying
 
@@ -12,9 +17,9 @@ To view this project, please use this live link.
 
 | Behavior                                           | Input                           | Output                                                         |
 | :------------------------------------------------- | :------------------------------ | :------------------------------------------------------------- |
-| User Picks the type, size and toppings they prefer | click on the add to cart button | Pizza is added to cart                                         |
-| User Checkout                                      | Click on checkout button        | A summary of the order is displayed and user confirms checkout |
-| User chooses either delivery or pickup             | Enter location details          | User receives alert that their order will be delivered         |
+| User visits site and navigates on the landing page | click on the view properties button | The properties page is displayed                                         |
+| User views property profile                                  | Click on view profile button        | Description of the property and its features are displayed |
+| User chooses to book site visit           | Enter name and mobile number        | User receives alert that they will be contacted to for viewing site arrangements |
 
 ## Technologies used
 
@@ -59,7 +64,7 @@ For any questions,feedback or comment please contact us via email: pata-keja@gma
 This project is licensed under the MIT License.
 MIT License
 
-Copyright (c) 2019 Pata-keja
+Copyright (c) 2019 Kenin muchui
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
