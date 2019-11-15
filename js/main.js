@@ -26,3 +26,17 @@
       $( ".inner-switch" ).text( "ON" );
     }
 });
+// button details2
+
+$(document).ready(function() {
+
+$("#details").click(function() {
+  $(".details1").show();
+});
+$("#details2").click(function() {
+  $(".details2").show();
+});
+$("#details3").click(function() {
+  $(".details3").show();
+});
+});
